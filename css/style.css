@@ -1,14 +1,16 @@
+@charset "UTF-8";
 /* Custom Stylesheet */
 /**
  *
  * Made By Joash Pereira
+ * Edited by Jo├úo Monteiro
  * Thanks for MaterializeCSS.com
  */
 .default_color {
-  background-color: #2196F3 !important; }
+  background-color: #0F8B8D !important; }
 
 .default_color_text {
-  color: #2196F3 !important; }
+  color: #0F8B8D !important; }
 
 .icon-block {
   padding: 0 15px; }
@@ -16,11 +18,21 @@
 #intro, #work, #team {
   padding-top: 4rem; }
 
+#intro {
+  padding-bottom: 4rem; }
+
+#photo-banner {
+  background: url("../img/header-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; }
+
 #index-banner {
   min-height: 632px;
   max-height: 864px;
   position: relative;
-  background-color: #2196F3; }
+  background-color: #0F8B8D;
+  opacity: 0.8; }
 
 #nav_f {
   box-shadow: none !important;
@@ -28,7 +40,7 @@
 
 .text_h {
   padding: 15% 0;
-  font-size: 6.0em;
+  font-size: 5.5em;
   font-weight: 100;
   color: white; }
 
@@ -49,25 +61,25 @@
 
 .span_h2 {
   font-weight: 300;
-  color: #2196F3; }
+  color: #0F8B8D; }
 
 .text_b {
-  color: #2196F3; }
+  color: #0F8B8D; }
 
 .in {
   font-weight: 400 !important;
   font-style: normal !important; }
 
 .promo i {
-  color: #2196F3;
+  color: #0F8B8D;
   font-size: 7rem;
   display: block; }
 
 .card-content a {
-  color: #2196F3; }
+  color: #0F8B8D; }
 
 .card-content a:hover {
-  color: #2196F3; }
+  color: #0F8B8D; }
 
 #work, #team {
   background: #f7f7f7; }
@@ -115,7 +127,7 @@ nav ul a {
   visibility: hidden; }
 
 .cd-headline.type .cd-words-wrapper.selected b {
-  color: #2196F3; }
+  color: #0F8B8D; }
 
 .cd-headline.type b {
   visibility: hidden; }
@@ -219,7 +231,13 @@ nav a.button-collapse {
 .card-avatar img {
   height: 150px;
   width: 150px;
-  border-radius: 75px; }
+  border-radius: 75px;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none; }
 
 .card-avatar .card-content {
   text-align: center; }
@@ -238,5 +256,17 @@ nav a.button-collapse {
 
 footer.page-footer {
   margin-top: 0px !important; }
+
+.primary-text {
+  color: #0F8B8D; }
+
+#footer-logo {
+  max-height: 200px;
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none; }
 
 /*# sourceMappingURL=style.css.map */
